@@ -11,6 +11,7 @@ Welcome to the AI Academic Research Assistant, an application designed to enhanc
 - **Agents for Enhanced Functionality**:
   - **SummarizerAgent**: Provides concise summaries of academic papers.
   - **ResearchAgent**: Performs semantic search and retrieval of relevant papers.
+  - **LitReviewAgent**: Facilitates comprehensive literature reviews by recommending local and external papers based on user-provided topics or existing papers.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -107,6 +108,9 @@ Run the application and navigate to `http://127.0.0.1:8000/docs` to explore the 
 - **POST /papers**: Upload a paper.
 - **GET /papers/search**: Search for papers.
 - **POST /papers/summarize/{id}**: Summarize a specific paper.
+- **POST /papers/literature_review/local**: Perform a local literature review by recommending top locally stored papers relevant to a user's topic.
+- **POST /papers/literature_review/external**: Perform an external literature review by fetching references from external sources (e.g., Arxiv) related to a user's topic.
+- **POST /papers/literature_review/full**: Perform a comprehensive literature review by combining both local and external paper recommendations.
 
 ### Adding Papers
 Upload PDFs using the `/papers` endpoint. Extracted content is stored in the database, and embeddings are generated for semantic search.
