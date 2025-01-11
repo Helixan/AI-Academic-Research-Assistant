@@ -1,0 +1,15 @@
+environment: development
+
+openai_api_key: YOUR_OPENAI_KEY
+
+database:
+  url: YOUR_DB_URL
+
+test_database:
+  url: YOUR_TEST_DB_URL
+
+vector_store:
+  type: pinecone
+  api_key: YOUR_PINECONE_API_KEY
+  environment: "us-east-1"
+  index_name: "my-index"
