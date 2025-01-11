@@ -1,0 +1,45 @@
+# Core Libraries
+langchain
+openai
+transformers
+sentence-transformers
+
+# Vector Databases
+pinecone-client
+pinecone[grpc]
+pinecone-plugin-assistant
+
+# Database
+sqlalchemy
+pymysql
+
+# Web Framework
+fastapi
+uvicorn
+
+# Parsers
+pypdf
+pdfminer.six
+reportlab
+
+# NLP
+spacy
+nltk
+
+# Task Scheduling
+celery
+redis
+
+# Configuration
+pydantic
+python-dotenv
+pyyaml
+
+# Testing
+pytest
+pytest-asyncio
+
+# Utilities
+loguru
+requests
+python-multipart
