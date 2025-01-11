@@ -1,26 +1,27 @@
 # Core Libraries
-langchain
-openai
+langchain~=0.3.14
+openai~=1.58.1
 transformers
 sentence-transformers
+arxiv
 
 # Vector Databases
-pinecone-client
-pinecone[grpc]
+pinecone-client~=5.0.1
+pinecone[grpc]~=5.4.2
 pinecone-plugin-assistant
 
 # Database
-sqlalchemy
+sqlalchemy~=2.0.36
 pymysql
 
 # Web Framework
-fastapi
+fastapi~=0.115.6
 uvicorn
 
 # Parsers
-pypdf
+pypdf~=5.1.0
 pdfminer.six
-reportlab
+reportlab~=4.2.5
 
 # NLP
 spacy
@@ -31,15 +32,17 @@ celery
 redis
 
 # Configuration
-pydantic
+pydantic~=2.10.4
 python-dotenv
-pyyaml
+pyyaml~=6.0.2
 
 # Testing
-pytest
+pytest~=8.3.4
 pytest-asyncio
 
 # Utilities
 loguru
 requests
 python-multipart
+
+numpy~=2.2.1
