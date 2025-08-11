@@ -1,6 +1,6 @@
-# AI Academic Research Assistant
+# Inquisitor
 
-Welcome to the AI Academic Research Assistant, an application designed to enhance academic research workflows. This tool enables users to manage, search, and analyze research papers using advanced AI models and vector search technologies. Below is a comprehensive guide to set up, configure, and use the application.
+Welcome to the Inquisitor, an AI-powered application designed to enhance academic research workflows. This tool enables users to manage, search, and analyze research papers using advanced AI models and vector search technologies. Below is a comprehensive guide to set up, configure, and use the application.
 
 ## Features
 - **User and Paper Management**: RESTful APIs to manage users and papers.
